@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte elegante */
+    background-color: #f7e9e9; /* Rosa claro como base */
+    background-image: url("https://www.transparenttextures.com/patterns/gentle-weave.png"); /* Textura sutil (opcional) - substitua pela URL da imagem que desejar ou remova */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #8a0000; /* Vermelho escuro elegante */
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+  
+  a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #c62828; /* Vermelho intenso para o botão */
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra para destaque */
+    transition: background-color 0.3s ease; /* Efeito suave na passagem do mouse */
+  }
+  
+  a:hover {
+    background-color: #8a0000; /* Vermelho escuro ao passar o mouse */
+    cursor: pointer;
+  }
